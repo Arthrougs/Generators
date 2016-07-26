@@ -1,0 +1,12 @@
+package org.lightningarc.www;
+
+import org.bukkit.Material;
+
+public class Generator {
+
+	public Generator(Material material){
+		
+	}
+	
+	
+}
