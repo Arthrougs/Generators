@@ -35,7 +35,7 @@ public class PluginMain extends JavaPlugin implements EventListener {
 		testChestMeta.setDisplayName(ChatColor.BLUE + "Lapis Gen");
 		testChest.setItemMeta(testChestMeta);
 		
-		player.getInventory().addItem(testChest);
+		player.getInventory().addItem()
 	}
 	
 }

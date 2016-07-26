@@ -32,10 +32,9 @@ public class PluginMain extends JavaPlugin implements EventListener {
 		
 		ItemStack testChest = new ItemStack(Material.CHEST, 1);
 		ItemMeta testChestMeta = testChest.getItemMeta();
-		testChestMeta.setDisplayName(ChatColor.BLUE + "Lapis Gen");
-		testChest.setItemMeta(testChestMeta);
+		testChestMeta.setDisplayName(ChatColor.BLUE + "Lapis");
 		
-		player.getInventory().addItem(testChest);
+		player.getInventory().addItem()
 	}
 	
 }
