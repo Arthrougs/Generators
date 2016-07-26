@@ -1,0 +1,13 @@
+package org.lightningarc.www;
+
+public class PluginMain {
+
+	public void onEnable(){
+		
+	}
+	
+	public void onDisable(){
+		
+	}
+	
+}

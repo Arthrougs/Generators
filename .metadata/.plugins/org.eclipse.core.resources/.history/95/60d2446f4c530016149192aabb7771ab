@@ -1,8 +1,5 @@
 package org.lightningarc.www;
 
+public class PluginMain {
 
-public class SQLHandler{
-	
-	
-	
 }

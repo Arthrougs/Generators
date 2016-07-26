@@ -1,0 +1,9 @@
+package org.lightningarc.www;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class SQLHandler extends JavaPlugin {
+	
+	
+	
+}
