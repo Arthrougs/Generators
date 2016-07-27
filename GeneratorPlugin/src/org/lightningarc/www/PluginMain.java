@@ -2,14 +2,12 @@ package org.lightningarc.www;
 
 import java.util.EventListener;
 
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PluginMain extends JavaPlugin implements EventListener {
@@ -27,15 +25,10 @@ public class PluginMain extends JavaPlugin implements EventListener {
 		return false;
 	  }
 	
+	@EventHandler
 	public void onJoin(PlayerJoinEvent event){
 		Player player = (Player)event.getPlayer();
-		
-		ItemStack testChest = new ItemStack(Material.CHEST, 1);
-		ItemMeta testChestMeta = testChest.getItemMeta();
-		testChestMeta.setDisplayName(ChatColor.BLUE + "Lapis Gen");
-		testChest.setItemMeta(testChestMeta);
-		
-		player.getInventory().addItem(testChest);
+		player.sendMessage("Testaroni");
 	}
 	
 }

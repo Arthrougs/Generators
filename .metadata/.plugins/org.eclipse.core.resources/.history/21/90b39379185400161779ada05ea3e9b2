@@ -1,0 +1,3 @@
+name: randomTP
+main: org.lightningarc.www.PluginMain
+version: 1.0
