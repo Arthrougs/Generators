@@ -18,7 +18,7 @@ public class PluginMain extends JavaPlugin implements EventListener {
 	public void onEnable(){
 		PluginManager pm = Bukkit.getPluginManager();
 		pm.registerEvents(new PlayerEvents(), this);
-		pm.registerEvents(this, this);
+		pm.registerEvents((Listener) this, this);
 	}
 	
 	@Override
@@ -33,7 +33,7 @@ public class PluginMain extends JavaPlugin implements EventListener {
 	
 	@EventHandler
 	public void onJoin(PlayerLoginEvent event){
-		
+	
 	}
 	
 }
