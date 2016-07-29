@@ -6,7 +6,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.player.PlayerLoginEvent;
+import org.bukkit.event.player.PlayerJoinEvent;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PluginMain extends JavaPlugin implements EventListener {
@@ -26,7 +27,7 @@ public class PluginMain extends JavaPlugin implements EventListener {
 	
 	@EventHandler
 	public void onJoin(PlayerLoginEvent event){
-		Player player = event.getPlayer();
+		Player player = (Player)event.getPlayer();
 		player.sendMessage("Testaroni");
 	}
 	
