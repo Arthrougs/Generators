@@ -2,10 +2,13 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
 <fullyQualifiedTypeName name="java.util.EventListener"/>
-<fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
 <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
 <fullyQualifiedTypeName name="org.bukkit.inventory.ItemStack"/>
 <fullyQualifiedTypeName name="org.bukkit.Material"/>
 <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+<fullyQualifiedTypeName name="org.bukkit.event.player.PlayerLoginEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="org.bukkit.plugin.PluginManager"/>
 <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+<fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
 </qualifiedTypeNameHistroy>
