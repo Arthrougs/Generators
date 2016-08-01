@@ -1,4 +1,4 @@
-/*package org.lightningarc.www;
+package org.lightningarc.www;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -41,4 +41,4 @@ public class SqlHandler extends BukkitRunnable {
 		
 	}
 	
-}*/
+}
